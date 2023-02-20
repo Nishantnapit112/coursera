@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>courseera</title>
+    <link rel="stylesheet" href="clone.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height: 105px">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid" id="image">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img
+                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZpZXdCb3g9IjAgMCAxMTU1IDE2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjIiPjxwYXRoIGQ9Ik0xNTkuNzUgODEuNTRjMC00NC40OSAzNi42My04MC40NyA4Mi40My04MC40NyA0Ni4xMiAwIDgyLjc2IDM2IDgyLjc2IDgwLjQ3IDAgNDQuMTYtMzYuNjQgODAuOC04Mi43NiA4MC44LTQ1LjggMC04Mi40My0zNi42OC04Mi40My04MC44em0xMjUuNjEgMGMwLTIyLjI0LTE5LjMtNDEuODctNDMuMTgtNDEuODctMjMuNTUgMC00Mi44NSAxOS42My00Mi44NSA0MS44NyAwIDIyLjU3IDE5LjMgNDIuMiA0Mi44NSA0Mi4yIDIzLjkyIDAgNDMuMTgtMTkuNjMgNDMuMTgtNDIuMnptNzA1LjYzIDEuMzFjMC00OC43NCAzOS41OC04MS43OCA3NS41Ny04MS43OCAyNC41MyAwIDM4LjYgNy41MiA0OC4wOCAyMS45MmwzLjc3LTE5aDM2Ljc5djE1NS40aC0zNi43OWwtNC43NS0xNmMtMTAuNzkgMTEuNzgtMjQuMjEgMTktNDcuMSAxOS0zNS4zMy0uMDUtNzUuNTctMzEuMTMtNzUuNTctNzkuNTR6bTEyNS42MS0uMzNjLS4wOS0yMy41MjctMTkuNDctNDIuODM1LTQzLTQyLjgzNS0yMy41OSAwLTQzIDE5LjQxMS00MyA0M3YuMTY1YzAgMjEuNTkgMTkuMyA0MC44OSA0Mi44NiA0MC44OSAyMy44NSAwIDQzLjE0LTE5LjMgNDMuMTQtNDEuMjJ6TTk0NS43OCAyMlY0aC00MC4yM3YxNTUuMzloNDAuMjNWNzUuNjZjMC0yNS4xOSAxMi40NC0zOC4yNyAzNC0zOC4yNyAxLjQzIDAgMi43OS4xIDQuMTIuMjNMOTkxLjM2LjExYy0yMC45Ny4xMS0zNi4xNyA3LjMtNDUuNTggMjEuODl6bS00MDQuMjcuMDF2LTE4bC00MC4yMy4wOS4zNCAxNTUuMzcgNDAuMjMtLjA5LS4yMi04My43MmMtLjA2LTI1LjE4IDEyLjM1LTM4LjI5IDMzLjkzLTM4LjM0IDEuMzc2LjAwNCAyLjc1Mi4wODEgNC4xMi4yM0w1ODcuMSAwYy0yMSAuMTctMzYuMjIgNy4zOS00NS41OSAyMi4wMXpNMzM4Ljg4IDk5LjJWNC4wMWg0MC4yMlY5NC4zYzAgMTkuOTUgMTEuMTIgMzEuNzMgMzAuNDIgMzEuNzMgMjEuNTkgMCAzNC0xMy4wOSAzNC0zOC4yOFY0LjAxaDQwLjI0djE1NS4zOGgtNDAuMjF2LTE4Yy05LjQ4IDE0LjcyLTI0Ljg2IDIxLjkyLTQ2LjEyIDIxLjkyLTM1Ljk4LjAxLTU4LjU1LTI2LjE2LTU4LjU1LTY0LjExem0zOTEuNzQtMTcuNDhjLjA5LTQzLjUxIDMxLjIzLTgwLjc0IDgwLjYyLTgwLjY1IDQ1LjguMDkgNzguMTEgMzYuNzggNzggODAgLjAxIDQuMjczLS4zMyA4LjU0LTEgMTIuNzZsLTExOC40MS0uMjJjNC41NCAxOC42NSAxOS44OSAzMi4wOSA0My4xMiAzMi4xNCAxNC4wNiAwIDI5LjEyLTUuMTggMzguMy0xNi45NGwyNy40NCAyMmMtMTQuMTEgMTkuOTMtMzkgMzEuNjYtNjUuNDggMzEuNjEtNDYuNzUtLjE2LTgyLjY3LTM1LjIzLTgyLjU5LTgwLjd6bTExOC4xMi0xNi4xNGMtMi4yNi0xNS43LTE4LjU5LTI3Ljg0LTM3Ljg5LTI3Ljg3LTE4LjY1IDAtMzMuNzEgMTEuMDYtMzkuNjMgMjcuNzNsNzcuNTIuMTR6bS0yNjEuNCA1OS45NGwzNS43Ni0xOC43MmM1LjkxIDEyLjgxIDE3LjczIDIwLjM2IDM0LjQ4IDIwLjM2IDE1LjQzIDAgMjEuMzQtNC45MiAyMS4zNC0xMS44MiAwLTI1LTg0LjcxLTkuODUtODQuNzEtNjcgMC0zMS41MiAyNy41OC00OC4yNiA2MS43Mi00OC4yNiAyNS45NCAwIDQ4LjkyIDExLjQ5IDYxLjQgMzIuODNsLTM1LjQ0IDE4Ljc1Yy01LjI1LTEwLjUxLTE1LjEtMTYuNDItMjcuNTgtMTYuNDItMTIuMTQgMC0xOC4wNiA0LjI3LTE4LjA2IDExLjQ5IDAgMjQuMyA4NC43MSA4Ljg3IDg0LjcxIDY3IDAgMzAuMjEtMjQuNjIgNDguNTktNjQuMzUgNDguNTktMzMuODItLjAzLTU3LjQ2LTExLjE5LTY5LjI3LTM2Ljh6TTAgODEuNTRDMCAzNi43MyAzNi42My43NCA4Mi40My43NGMyNy45NDctLjE5NiA1NC4xODIgMTMuNzM3IDY5LjY3IDM3bC0zNC4zNCAxOS45MmE0Mi45NzIgNDIuOTcyIDAgMDAtMzUuMzMtMTguMzJjLTIzLjU1IDAtNDIuODUgMTkuNjMtNDIuODUgNDIuMiAwIDIyLjU3IDE5LjMgNDIuMiA0Mi44NSA0Mi4yYTQyLjUwMiA0Mi41MDIgMCAwMDM2LjMxLTIwbDM0IDIwLjI4Yy0xNS4zMDcgMjMuOTU1LTQxLjkwMiAzOC40MzEtNzAuMzMgMzguMjhDMzYuNjMgMTYyLjM0IDAgMTI1LjY2IDAgODEuNTR6IiBmaWxsPSIjMDA1NkQyIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4="
+                        alt="" style="height: 24px; width: 130px" />
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Explore</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Data Science</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Information Technology</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Language learning</a>
+                                    </li>
+                                    <hr class="dropdown-divider" />
+                                    <li>
+                                        <a class="dropdown-item" href="#">Health</a>
+                                    </li>
+                                    <hr class="dropdown-divider" />
+                                     <li>
+                                        <a class="dropdown-item" href="#">Personal development</a>
+                                    </li> 
+                                    <hr class="dropdown-divider" />
+                                    <li>
+                                        <a class="dropdown-item" href="#">Social Sciences</a>
+                                    </li>
+                                    <hr class="dropdown-divider" />
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <form class="d-flex" role="search" id="searchbar">
+                                    <input class="form-control ms-4 border border-dark pe-3" type="search"
+                                        placeholder="Search" aria-label="Search" />
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent1">
+                        <ul class="navbar-nav" id="two">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <span>Online</span> Degrees
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Online degree</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">MasterTrack</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"> university Certificates</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#"><span>Find your new</span>career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span>For</span> Enterprise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span>For</span>Universities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-primary" href="#">Login</a>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary text-white">
+                                    Join<span>for Free</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--  2nd row -->
+        <div class="row" style="height: 720px">
+            <div class="col-lg-7 col-md-10 col-sm-10 col-10 offset-1 " style="margin-top: 150px;">
+                <div class="col-12 mt-4">
+                    <h1 style="font-size: 75px">Learn Without </h1>
+                    <h1 class="fs-1">Limits</h1>
+                </div>
+                <div class="col-12 mt-4">
+                    <p style="font-size: 20px">
+                        Start, switch, or advance your career with more than 5,000
+                        courses, Professional Certificates, and degrees from world-class
+                        universities and companies.
+                    </p>
+                </div>
+                <div class="row mt-6">
+                    <div class="col-6">
+                        <button type="button" class="btn btn-primary  btn-lg p-3">
+                            Join For Free
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn bg-light btn-lg p-3 border-primary text-primary">
+                            Try Coursera For Business
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3" id="mainimage">
+                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/33EmCuyKJT5MD5DOiYCcCV/c4e335120bb5d1df52add54e9ade10ac/CourseraLearners_C_Composition_Lochan.png?auto=format%2Ccompress&dpr=1&w=459&h=497&q=40" alt="" class="img-fluid mt-5" />
+            </div>
+        </div>
+
+        <!-- 3rd row-->
+        <div class="row" id="row-3">
+            <div class="col-12 bg-light d-flex justify-content-center align-items-center text">
+                <p style="font-size: 2em">We Collaborate with
+                <span class="text-primary">275+ leading universities and companies</span></p>
+            </div>
+
+            <div class="col-12 bg-light d-flex flex-wrap ">
+                <img src="download51.png" alt="" class="ms-3" style="height: 40px; width: 100px"/>
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download51.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download51.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download51.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download51.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download51.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download51.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+                <img src="download54.png" alt="" class="ms-3" style="height: 40px; width: 100px" />
+            </div>
+        </div>
+        <!--ROW 4-->
+        <div>
+            <p class="fw-bold fs-5">Master's and Bachelor's Degrees</p>
+            <p class="fw-bold fs-1">Find a top degree that fits your life</p>
+            <p class="fw-bold fs-5">Breakthrough pricing on 100% online degrees from top universities.</p>
+
+
+        </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
+
+        

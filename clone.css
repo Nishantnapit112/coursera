@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+    #searchbar {
+    width: 120px;
+  
+    }
+  }
+  
+  
+  @media screen and (max-width: 991px) {
+    #mainimage {
+      display: none;
+  
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #row-3{
+      margin-top: 180px;
+  
+    }
+  }
+  
+  
+  
+  
